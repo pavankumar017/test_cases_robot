@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230818 11:31:57.053" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230818 11:42:18.650" rpa="false" schemaversion="2">
 <suite id="s1" name="Testcases" source="/Users/pavankumar/VSCODE/test_cases_robot/robot/testcases.robot">
 <kw name="Open Browser &quot;https://www.amazon.in/&quot;" library="testcases_keyword" type="SETUP" sourcename="Open Browser &quot;${URL}&quot;">
 <kw name="Open Browser" library="utils">
 <arg>${URL}</arg>
-<msg timestamp="20230818 11:31:57.133" level="INFO">====== WebDriver manager ======</msg>
-<msg timestamp="20230818 11:31:57.239" level="INFO">Driver [/Users/pavankumar/.wdm/drivers/geckodriver/macos-aarch64/v0.33.0/geckodriver] found in cache</msg>
-<status status="PASS" starttime="20230818 11:31:57.133" endtime="20230818 11:32:00.903"/>
+<msg timestamp="20230818 11:42:18.729" level="INFO">====== WebDriver manager ======</msg>
+<msg timestamp="20230818 11:42:18.834" level="INFO">Driver [/Users/pavankumar/.wdm/drivers/geckodriver/macos-aarch64/v0.33.0/geckodriver] found in cache</msg>
+<status status="PASS" starttime="20230818 11:42:18.729" endtime="20230818 11:42:25.613"/>
 </kw>
-<status status="PASS" starttime="20230818 11:31:57.133" endtime="20230818 11:32:00.903"/>
+<status status="PASS" starttime="20230818 11:42:18.729" endtime="20230818 11:42:25.613"/>
 </kw>
 <test id="s1-t1" name="User to verify opening the amazon website and check it its on english">
 <kw name="Given user is on Home page of amazon" library="testcases_keyword">
 <kw name="User Is On Home Page Of Amazon" library="test_cases">
 <doc>Verify that user is on home page of amazon</doc>
-<status status="PASS" starttime="20230818 11:32:00.904" endtime="20230818 11:32:00.909"/>
+<status status="PASS" starttime="20230818 11:42:25.614" endtime="20230818 11:42:25.619"/>
 </kw>
-<status status="PASS" starttime="20230818 11:32:00.904" endtime="20230818 11:32:00.909"/>
+<status status="PASS" starttime="20230818 11:42:25.614" endtime="20230818 11:42:25.619"/>
 </kw>
-<kw name="Then verify the page is displayed in english" library="testcases_keyword">
+<kw name="Then verify the page is displayed in ${txt_english}" library="testcases_keyword" sourcename="verify the page is displayed in ${txt_english}">
 <kw name="Verify The Page Is Displayed In English" library="test_cases">
+<arg>${txt_english}</arg>
 <doc>verfy english language is displayed</doc>
-<status status="PASS" starttime="20230818 11:32:00.909" endtime="20230818 11:32:00.921"/>
+<status status="PASS" starttime="20230818 11:42:25.620" endtime="20230818 11:42:25.630"/>
 </kw>
-<status status="PASS" starttime="20230818 11:32:00.909" endtime="20230818 11:32:00.921"/>
+<status status="PASS" starttime="20230818 11:42:25.620" endtime="20230818 11:42:25.630"/>
 </kw>
-<status status="PASS" starttime="20230818 11:32:00.903" endtime="20230818 11:32:00.921"/>
+<status status="PASS" starttime="20230818 11:42:25.613" endtime="20230818 11:42:25.630"/>
 </test>
 <kw name="Close Browser" library="testcases_keyword" type="TEARDOWN">
 <kw name="Close Browser" library="utils">
-<status status="PASS" starttime="20230818 11:32:00.921" endtime="20230818 11:32:01.437"/>
+<status status="PASS" starttime="20230818 11:42:25.631" endtime="20230818 11:42:26.087"/>
 </kw>
-<status status="PASS" starttime="20230818 11:32:00.921" endtime="20230818 11:32:01.437"/>
+<status status="PASS" starttime="20230818 11:42:25.631" endtime="20230818 11:42:26.087"/>
 </kw>
-<status status="PASS" starttime="20230818 11:31:57.054" endtime="20230818 11:32:01.437"/>
+<status status="PASS" starttime="20230818 11:42:18.650" endtime="20230818 11:42:26.087"/>
 </suite>
 <statistics>
 <total>
@@ -46,7 +47,6 @@
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230818 11:31:57.132" level="WARN">Imported library '/Users/pavankumar/VSCODE/test_cases_robot/robot/locators.py' contains no keywords.</msg>
-<msg timestamp="20230818 11:31:57.132" level="ERROR">Error in file '/Users/pavankumar/VSCODE/test_cases_robot/robot/testcases_keyword.robot' on line 2: Invalid resource file extension '.py'. Supported extensions are '.resource', '.robot', '.txt', '.tsv', '.rst' and '.rest'.</msg>
+<msg timestamp="20230818 11:42:18.728" level="ERROR">Error in file '/Users/pavankumar/VSCODE/test_cases_robot/robot/testcases_keyword.robot' on line 2: Resource file 'locators.py' does not exist.</msg>
 </errors>
 </robot>

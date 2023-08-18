@@ -7,8 +7,8 @@ def user_is_on_home_page_of_amazon():
     util.driver.find_element_by_id("nav-logo")
 
 
-def verify_the_page_is_displayed_in_english():
+def verify_the_page_is_displayed_in_english(txt_english):
     """verfy english language is displayed"""
-    lang = util.driver.find_element_by_xpath("//span[@class='nav-line-2']//div").text
+    lang = util.driver.find_element_by_xpath(txt_english).text
     logger.console(lang)
     assert(lang == "EN")
