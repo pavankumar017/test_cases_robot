@@ -1,52 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230818 11:42:18.650" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230821 12:25:37.172" rpa="false" schemaversion="2">
 <suite id="s1" name="Testcases" source="/Users/pavankumar/VSCODE/test_cases_robot/robot/testcases.robot">
 <kw name="Open Browser &quot;https://www.amazon.in/&quot;" library="testcases_keyword" type="SETUP" sourcename="Open Browser &quot;${URL}&quot;">
 <kw name="Open Browser" library="utils">
 <arg>${URL}</arg>
-<msg timestamp="20230818 11:42:18.729" level="INFO">====== WebDriver manager ======</msg>
-<msg timestamp="20230818 11:42:18.834" level="INFO">Driver [/Users/pavankumar/.wdm/drivers/geckodriver/macos-aarch64/v0.33.0/geckodriver] found in cache</msg>
-<status status="PASS" starttime="20230818 11:42:18.729" endtime="20230818 11:42:25.613"/>
+<status status="PASS" starttime="20230821 12:25:37.251" endtime="20230821 12:25:41.065"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:18.729" endtime="20230818 11:42:25.613"/>
+<status status="PASS" starttime="20230821 12:25:37.251" endtime="20230821 12:25:41.065"/>
 </kw>
 <test id="s1-t1" name="User to verify opening the amazon website and check it its on english">
 <kw name="Given user is on Home page of amazon" library="testcases_keyword">
 <kw name="User Is On Home Page Of Amazon" library="test_cases">
 <doc>Verify that user is on home page of amazon</doc>
-<status status="PASS" starttime="20230818 11:42:25.614" endtime="20230818 11:42:25.619"/>
+<status status="PASS" starttime="20230821 12:25:41.066" endtime="20230821 12:25:41.095"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:25.614" endtime="20230818 11:42:25.619"/>
+<status status="PASS" starttime="20230821 12:25:41.066" endtime="20230821 12:25:41.095"/>
 </kw>
 <kw name="Then verify the page is displayed in ${txt_english}" library="testcases_keyword" sourcename="verify the page is displayed in ${txt_english}">
 <kw name="Verify The Page Is Displayed In English" library="test_cases">
 <arg>${txt_english}</arg>
 <doc>verfy english language is displayed</doc>
-<status status="PASS" starttime="20230818 11:42:25.620" endtime="20230818 11:42:25.630"/>
+<status status="PASS" starttime="20230821 12:25:41.096" endtime="20230821 12:25:41.131"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:25.620" endtime="20230818 11:42:25.630"/>
+<status status="PASS" starttime="20230821 12:25:41.096" endtime="20230821 12:25:41.131"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:25.613" endtime="20230818 11:42:25.630"/>
+<status status="PASS" starttime="20230821 12:25:41.065" endtime="20230821 12:25:41.131"/>
+</test>
+<test id="s1-t2" name="User to select book from drop down and search for &quot;The Alchemist&quot;">
+<kw name="Given user is on Home page of amazon" library="testcases_keyword">
+<kw name="User Is On Home Page Of Amazon" library="test_cases">
+<doc>Verify that user is on home page of amazon</doc>
+<status status="PASS" starttime="20230821 12:25:41.131" endtime="20230821 12:25:41.134"/>
+</kw>
+<status status="PASS" starttime="20230821 12:25:41.131" endtime="20230821 12:25:41.134"/>
+</kw>
+<kw name="When user selects Books from the drop down" library="testcases_keyword">
+<kw name="User Selects Books From The Drop Down" library="test_cases">
+<doc>select a book</doc>
+<status status="PASS" starttime="20230821 12:25:41.135" endtime="20230821 12:25:45.513"/>
+</kw>
+<status status="PASS" starttime="20230821 12:25:41.135" endtime="20230821 12:25:45.513"/>
+</kw>
+<kw name="Then search for the book &quot;The Alchemist&quot;" library="testcases_keyword" sourcename="search for the book &quot;${book_name}&quot;">
+<kw name="Search Book" library="test_cases">
+<arg>${book_name}</arg>
+<doc>searches the book</doc>
+<msg timestamp="20230821 12:25:57.944" level="FAIL">TimeoutException: Message: 
+</msg>
+<status status="FAIL" starttime="20230821 12:25:45.514" endtime="20230821 12:25:57.944"/>
+</kw>
+<status status="FAIL" starttime="20230821 12:25:45.513" endtime="20230821 12:25:57.945"/>
+</kw>
+<status status="FAIL" starttime="20230821 12:25:41.131" endtime="20230821 12:25:57.946">TimeoutException: Message: 
+</status>
 </test>
 <kw name="Close Browser" library="testcases_keyword" type="TEARDOWN">
 <kw name="Close Browser" library="utils">
-<status status="PASS" starttime="20230818 11:42:25.631" endtime="20230818 11:42:26.087"/>
+<status status="PASS" starttime="20230821 12:25:57.948" endtime="20230821 12:25:58.076"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:25.631" endtime="20230818 11:42:26.087"/>
+<status status="PASS" starttime="20230821 12:25:57.948" endtime="20230821 12:25:58.076"/>
 </kw>
-<status status="PASS" starttime="20230818 11:42:18.650" endtime="20230818 11:42:26.087"/>
+<status status="FAIL" starttime="20230821 12:25:37.173" endtime="20230821 12:25:58.076"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Testcases">Testcases</stat>
+<stat pass="1" fail="1" skip="0" id="s1" name="Testcases">Testcases</stat>
 </suite>
 </statistics>
 <errors>
-<msg timestamp="20230818 11:42:18.728" level="ERROR">Error in file '/Users/pavankumar/VSCODE/test_cases_robot/robot/testcases_keyword.robot' on line 2: Resource file 'locators.py' does not exist.</msg>
 </errors>
 </robot>

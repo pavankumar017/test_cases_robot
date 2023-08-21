@@ -1,5 +1,5 @@
 **Settings**
-Resource  locators.py
+# Resource  locators.py
 
 **Keywords***
 
@@ -15,3 +15,10 @@ user is on Home page of amazon
 
 verify the page is displayed in ${txt_english}
     test_cases.verify_the_page_is_displayed_in_english  ${txt_english}
+
+
+user selects Books from the drop down
+    test_cases.user_selects_books_from_the_drop_down
+
+search for the book "${book_name}"
+    test_cases.search_book  ${book_name}

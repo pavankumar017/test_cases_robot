@@ -96,3 +96,198 @@ JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBG
 JavaScript warning: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51jfxuELZ4L.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01UrOK220PL.js_.js?AUIClients/AmazonUI, line 16: Script terminated by timeout at:
 d</delay/<@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51jfxuELZ4L.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01UrOK220PL.js_.js?AUIClients/AmazonUI:16:200
 
+1692597625710	geckodriver	INFO	Listening on 127.0.0.1:51312
+1692597626117	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofilehYGZvn"
+2023-08-21 11:30:29.334 firefox-bin[4485:74423] AuthorizationCopyRights failed! NSOSStatusErrorDomain / -60006
+WebDriver BiDi listening on ws://127.0.0.1:51313
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51313/devtools/browser/d324bfe4-dabb-4e96-bbee-110c8ce66a2a
+1692597660456	geckodriver	INFO	Listening on 127.0.0.1:51375
+1692597660883	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileU4R4mA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692597661167	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692597661257	Marionette	INFO	Listening on port 51383
+WebDriver BiDi listening on ws://127.0.0.1:51376
+Read port: 51383
+1692597661396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51376/devtools/browser/6f93ce42-aa44-4938-937a-68c3864ff06f
+JavaScript warning: https://www.amazon.in/, line 2017: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692597670348	Marionette	INFO	Stopped listening on port 51383
+1692597709340	geckodriver	INFO	Listening on 127.0.0.1:51471
+1692597709769	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileBH1DdB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692597710051	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692597710141	Marionette	INFO	Listening on port 51479
+WebDriver BiDi listening on ws://127.0.0.1:51472
+Read port: 51479
+1692597710271	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51472/devtools/browser/61aa83bf-4470-4d2a-8f75-21b7b4a42331
+JavaScript warning: https://www.amazon.in/, line 2006: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692597714964	Marionette	INFO	Stopped listening on port 51479
+JavaScript warning: https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51jfxuELZ4L.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01UrOK220PL.js_.js?AUIClients/AmazonUI, line 89: Script terminated by timeout at:
+n@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51jfxuELZ4L.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01UrOK220PL.js_.js?AUIClients/AmazonUI:89:31
+w.resize.handler@https://m.media-amazon.com/images/I/11Y+5x+kkTL._RC|51jfxuELZ4L.js,11yKORv-GTL.js,11GgN1+C7hL.js,01+z+uIeJ-L.js,01VRMV3FBdL.js,21SDJtBU-PL.js,012FVc3131L.js,11rRjDLdAVL.js,516j7qaWchL.js,11kWu3cNjYL.js,11tMohjWmVL.js,11OREnu1epL.js,11r3xGoc2RL.js,21ssiLNIZvL.js,0190vxtlzcL.js,51+N26vFcBL.js,01JYHc2oIlL.js,31nfKXylf6L.js,01ezj5Rkz1L.js,11bEz2VIYrL.js,31o2NGTXThL.js,01rpauTep4L.js,01UrOK220PL.js_.js?AUIClients/AmazonUI:92:480
+
+1692598661386	geckodriver	INFO	Listening on 127.0.0.1:52096
+1692598661810	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileLC7Ii5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692598662076	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692598662161	Marionette	INFO	Listening on port 52104
+WebDriver BiDi listening on ws://127.0.0.1:52097
+Read port: 52104
+1692598662292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52097/devtools/browser/4dc8e9fd-ac51-4fa4-aaba-7dfec0bfc5bd
+1692598662765	Marionette	INFO	Stopped listening on port 52104
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+1692598746949	geckodriver	INFO	Listening on 127.0.0.1:52126
+1692598747366	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileotReda"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692598747626	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692598747798	Marionette	INFO	Listening on port 52134
+WebDriver BiDi listening on ws://127.0.0.1:52127
+Read port: 52134
+1692598747909	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52127/devtools/browser/4b97a327-a195-484e-8a96-298b0e086405
+JavaScript warning: https://www.amazon.in/, line 2008: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692598750235	Marionette	INFO	Stopped listening on port 52134
+JavaScript warning: https://www.amazon.in/, line 275: Script terminated by timeout at:
+D/<@https://www.amazon.in/:275:670
+
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/ContentMetaChild.sys.mjs, line 179: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1692598768100	geckodriver	INFO	Listening on 127.0.0.1:52196
+1692598768525	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileZmnnYZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692598768798	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692598768969	Marionette	INFO	Listening on port 52204
+WebDriver BiDi listening on ws://127.0.0.1:52197
+Read port: 52204
+1692598769086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52197/devtools/browser/cb9261c6-da6b-4774-bc5c-2109e4235463
+JavaScript warning: https://www.amazon.in/, line 2654: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692598770884	Marionette	INFO	Stopped listening on port 52204
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1692598781901	geckodriver	INFO	Listening on 127.0.0.1:52261
+1692598782337	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofile1BA2tP"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692598782610	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692598782700	Marionette	INFO	Listening on port 52269
+WebDriver BiDi listening on ws://127.0.0.1:52262
+Read port: 52269
+1692598782829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52262/devtools/browser/f418d254-ba4a-48ca-9e52-ebe4ba058dea
+JavaScript warning: https://www.amazon.in/, line 2003: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692598785060	Marionette	INFO	Stopped listening on port 52269
+1692598904228	geckodriver	INFO	Listening on 127.0.0.1:52336
+1692598904657	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofile2emuJJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692598904943	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692598905030	Marionette	INFO	Listening on port 52344
+WebDriver BiDi listening on ws://127.0.0.1:52337
+Read port: 52344
+1692598905161	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52337/devtools/browser/13018a9d-ab6c-4537-b1fc-de956890bb36
+JavaScript warning: https://www.amazon.in/, line 2510: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692598910906	Marionette	INFO	Stopped listening on port 52344
+JavaScript warning: https://www.amazon.in/, line 2414: Script terminated by timeout at:
+timeout/<@https://www.amazon.in/:2414:105
+
+1692598999306	geckodriver	INFO	Listening on 127.0.0.1:52475
+1692598999733	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofiletGVOw3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692599000006	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692599000172	Marionette	INFO	Listening on port 52483
+WebDriver BiDi listening on ws://127.0.0.1:52476
+Read port: 52483
+1692599000281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52476/devtools/browser/1b7cc570-103d-4464-b023-39bd8043dd73
+JavaScript warning: https://www.amazon.in/, line 2510: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692599006208	Marionette	INFO	Stopped listening on port 52483
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1, line 121: Script terminated by timeout at:
+onEnter/z<@https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1:121:173
+
+1692599027570	geckodriver	INFO	Listening on 127.0.0.1:52592
+1692599027996	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileG3D36k"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692599028276	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692599028364	Marionette	INFO	Listening on port 52601
+WebDriver BiDi listening on ws://127.0.0.1:52593
+Read port: 52601
+1692599028495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52593/devtools/browser/474e2fa7-e571-42ab-ac8e-fe43505edfec
+JavaScript warning: https://www.amazon.in/, line 2510: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692599034772	Marionette	INFO	Stopped listening on port 52601
+JavaScript warning: https://www.amazon.in/, line 2414: Script terminated by timeout at:
+timeout/<@https://www.amazon.in/:2414:105
+
+1692599461552	geckodriver	INFO	Listening on 127.0.0.1:52855
+1692599461981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileXuuCfo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692599462271	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692599462359	Marionette	INFO	Listening on port 52863
+WebDriver BiDi listening on ws://127.0.0.1:52856
+Read port: 52863
+1692599462487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52856/devtools/browser/366735d9-c3c5-4770-9524-2a10946f575f
+JavaScript warning: https://www.amazon.in/, line 1999: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692599468830	Marionette	INFO	Stopped listening on port 52863
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1, line 664: Script terminated by timeout at:
+d/a<@https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1:664:186
+
+1692599520032	geckodriver	INFO	Listening on 127.0.0.1:52988
+1692599520465	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/89/82j3q4gx4y96dfcb2jqb5jvw0000gn/T/rust_mozprofileOwXFJ7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692599520750	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692599520838	Marionette	INFO	Listening on port 52996
+WebDriver BiDi listening on ws://127.0.0.1:52989
+Read port: 52996
+1692599520962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52989/devtools/browser/dbb856f5-1fc5-49a0-a3a4-dcfe450878b2
+JavaScript warning: https://www.amazon.in/, line 2021: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.amazon.in/ line 7 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692599527565	Marionette	INFO	Stopped listening on port 52996
+JavaScript warning: https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1, line 121: Script terminated by timeout at:
+onEnter/z<@https://images-eu.ssl-images-amazon.com/images/I/41W974vG8QL._RC|71zzjyvEIHL.js,01F+A05ogQL.js,01phmzCOwJL.js,01eOvPdxG7L.js,71HGwLRNwQL.js,41306Iio4NL.js,115pV8Rl02L.js,01+pnQJuQ0L.js,21rDHgaooIL.js,41LFml+7fVL.js,51t-JTxfnwL.js,317BC63dC8L.js,11lEMI5MhIL.js,31c7Fn9h9gL.js,01LEzWzrPZL.js,01AqeWA7PKL.js_.js?AUIClients/NavDesktopUberAsset&ADj+mKrH#desktop.language-en.in.488400-T1.488413-T1.366740-T1.310484-T1.472106-T1:121:173
+
