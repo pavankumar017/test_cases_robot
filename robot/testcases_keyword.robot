@@ -22,3 +22,12 @@ user selects Books from the drop down
 
 search for the book "${book_name}"
     test_cases.search_book  ${book_name}
+
+User is on amazon searched page.
+    test_cases.searched_page
+
+User Selects the most gifted book
+    test_cases.selects_most_gfted_book
+
+User adds that book to cart
+    test_cases.adds_to_cart

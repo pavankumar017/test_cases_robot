@@ -9,8 +9,11 @@ def open_browser(url):
 #    driver = webdriver.Firefox(
 #             executable_path=GeckoDriverManager().install()
 #         )
-#    driver.get(url)
-   driver = webdriver.Chrome(executable_path="/Users/pavankumar/VSCODE/test_cases_robot/chromedriver")        
+   # driver.get(url)
+   driver = webdriver.Chrome(executable_path="/Users/pavankumar/VSCODE/test_cases_robot/chromedriver")  
+
+   # s = Service("/Users/pavankumar/VSCODE/test_cases_robot/chromedriver")
+   # driver = webdriver.Chrome(service=s)      
    driver.maximize_window()
    driver.get(url)
     # driver = webdriver.Chrome(executable_path=ChromeDriverManager(chrome_type=ChromeType.CHROMIUM)).install()

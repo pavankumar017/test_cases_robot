@@ -35,9 +35,29 @@ def search_book(book_name):
     """searches the book"""
     util.driver.find_element_by_id("twotabsearchtextbox").send_keys(book_name)
     util.driver.find_element_by_id("nav-search-submit-button").click()
-    # adding  wait 
-    WebDriverWait(util.driver , 10 ).until(EC.text_to_be_present_in_element((By.XPATH ,"//span[@class='a-color-state a-text-bold']"), "The alchemist"))
+    # # adding  wait 
+    ele = "//span[contains(text(),'1-16 of over 5,000 results for')]"
+    WebDriverWait(util.driver , 10 ).until(EC.presence_of_element_located((By.XPATH ,ele)))
 
+    res = util.driver.find_element_by_xpath("//span[contains(text(),'1-16 of over 5,000 results for')]/following-sibling::span[2]").text
+    
+    logger.console(res)
+    logger.console(book_name)
+    assert book_name in res
 
+def searched_page():
+    res = util.driver.find_element_by_xpath("//span[contains(text(),'1-16 of over 5,000 results for')]/following-sibling::span[2]").text
+    
+    logger.console(res)
+    assert "The Alchemist" in res
 
+def selects_most_gfted_book():
+    util.driver.find_element_by_xpath("//span[contains(text() , 'Best seller')]").click()
+                                           
+
+def adds_to_cart():
+    window_after = util.driver.window_handles[1]
+    util.driver.switch_to(window_after)
+
+    util.driver.find_element_by_id("add-to-cart-button")
 
