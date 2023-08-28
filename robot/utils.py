@@ -25,7 +25,5 @@ def open_browser(url):
 
     
 
-
-
 def close_browser():
     driver.quit()
