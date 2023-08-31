@@ -1,0 +1,11 @@
+{
+  "locators": {
+    "login": {
+      "username": "user-name",
+      "pwd": "password",
+      "login-btn": "[data-test='login-button']",
+      "error_msg": "[data-test='error']",
+      "login_page": "//span[contains(text() , 'Products')]"
+    }
+  }
+}
