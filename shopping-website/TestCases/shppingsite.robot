@@ -24,3 +24,10 @@ User to verify successfull login
     When user enters pwd valid
     And user clicks on login-btn 
     Then user should be successfully logged in 
+
+User to select the item with cost given dollar
+    Given user should be successfully logged in
+    When User selects the product with Price ""15.99""
+    When User clicks on cart-btn
+    Then User verifies the value of cart
+

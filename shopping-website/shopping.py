@@ -44,3 +44,14 @@ def verify_login():
     is_ele_present = util.driver.find_element_by_xpath(get_element("locators.login.login_page")).is_displayed()
 
     assert is_ele_present == True
+
+
+def select_the_product_on_price(price):
+    element = "//div[text()="+price + "]/following-sibling::button"
+    util.driver.find_element_by_xpath(element).click()
+
+def verify_cart_value():
+    price = "$15.99"
+    cart_price =  str(util.driver.find_element_by_css_selector(get_element("locators.login.cart_price")).text)
+    logger.console(cart_price)
+    assert cart_price ==price

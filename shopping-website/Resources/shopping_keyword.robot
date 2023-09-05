@@ -26,3 +26,9 @@ user should see error message "${err_msg}"
 
 user should be successfully logged in 
     shopping.verify_login
+
+User selects the product with Price "${price}"
+    shopping.select_the_product_on_price  ${price}
+
+User verifies the value of cart
+    shopping.verify_cart_value

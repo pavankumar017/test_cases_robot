@@ -5,7 +5,9 @@
       "pwd": "password",
       "login-btn": "[data-test='login-button']",
       "error_msg": "[data-test='error']",
-      "login_page": "//span[contains(text() , 'Products')]"
+      "login_page": "//span[contains(text() , 'Products')]",
+      "cart-btn": "div[class = 'shopping_cart_container']",
+      "cart_price": "div[class= 'item_pricebar'] div"
     }
   }
 }
