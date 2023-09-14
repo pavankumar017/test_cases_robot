@@ -1,0 +1,19 @@
+{
+  "locators": {
+    "login": {
+      "username": "user-name",
+      "pwd": "password",
+      "login-btn": "[data-test='login-button']",
+      "error_msg": "[data-test='error']",
+      "login_page": "//span[contains(text() , 'Products')]",
+      "cart-btn": "div[class = 'shopping_cart_container']",
+      "cart_price": "div[class= 'item_pricebar'] div"
+    },
+    "selectors_hub": {
+      "home_page": "//a[contains(text() , 'SelectorsHub')]",
+      "first_name": "//*[@placeholder='First Enter name']",
+      "edit_action": "//label[normalize-space()='Can you enter name here through automation']//*[local-name()='svg']",
+      "drop_down_visible": "//a[contains(text() , 'Join Training')]"
+    }
+  }
+}

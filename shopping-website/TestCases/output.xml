@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on darwin)" generated="20230914 10:42:55.797" rpa="false" schemaversion="2">
+<suite id="s1" name="Slectors Hub" source="/Users/pavankumar/VSCODE/test_cases_robot/shopping-website/TestCases/slectors_hub.robot">
+<kw name="Open Browser &quot;https://selectorshub.com/xpath-practice-page/&quot;" library="shopping_keyword" type="SETUP" sourcename="Open Browser &quot;${URL}&quot;">
+<kw name="Open Browser" library="utils">
+<arg>${URL}</arg>
+<status status="PASS" starttime="20230914 10:42:55.878" endtime="20230914 10:43:03.705"/>
+</kw>
+<status status="PASS" starttime="20230914 10:42:55.878" endtime="20230914 10:43:03.706"/>
+</kw>
+<test id="s1-t1" name="Verfy successfully Opened the given link">
+<kw name="Given User should be in the home page" library="selectors_hub_keyword">
+<kw name="Homepage" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.707" endtime="20230914 10:43:03.710"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.707" endtime="20230914 10:43:03.710"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.706" endtime="20230914 10:43:03.710"/>
+</test>
+<test id="s1-t2" name="User to verify the firstname are not clickable until clicked on action button">
+<kw name="Given User should be in the home page" library="selectors_hub_keyword">
+<kw name="Homepage" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.711" endtime="20230914 10:43:03.714"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.711" endtime="20230914 10:43:03.714"/>
+</kw>
+<kw name="And Firstname field is not interactable" library="selectors_hub_keyword">
+<kw name="Field Notinteract" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.714" endtime="20230914 10:43:03.729"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.714" endtime="20230914 10:43:03.729"/>
+</kw>
+<kw name="And User click on Edit action SVG icon" library="selectors_hub_keyword">
+<kw name="Click On Edit" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.729" endtime="20230914 10:43:03.756"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.729" endtime="20230914 10:43:03.756"/>
+</kw>
+<kw name="Then User should be able to interact" library="selectors_hub_keyword">
+<kw name="Field Interaact" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.757" endtime="20230914 10:43:03.764"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.757" endtime="20230914 10:43:03.764"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.710" endtime="20230914 10:43:03.764"/>
+</test>
+<test id="s1-t3" name="User to test the select class based on input">
+<kw name="Given User should be in the home page" library="selectors_hub_keyword">
+<kw name="Homepage" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.764" endtime="20230914 10:43:03.766"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.764" endtime="20230914 10:43:03.766"/>
+</kw>
+<kw name="Then User should select dropdown &quot;audi&quot;" library="selectors_hub_keyword" sourcename="User should select dropdown &quot;${drop_down_value}&quot;">
+<kw name="Select A Dropdwon" library="selectors_hub">
+<arg>${drop_down_value}</arg>
+<status status="PASS" starttime="20230914 10:43:03.766" endtime="20230914 10:43:03.797"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.766" endtime="20230914 10:43:03.797"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.764" endtime="20230914 10:43:03.797"/>
+</test>
+<test id="s1-t4" name="User to test action class on hovver checkout">
+<kw name="Given User should be in the home page" library="selectors_hub_keyword">
+<kw name="Homepage" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.797" endtime="20230914 10:43:03.803"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.797" endtime="20230914 10:43:03.803"/>
+</kw>
+<kw name="And User hoovers on Checkouthere" library="selectors_hub_keyword">
+<kw name="Hoover On Checkout" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:03.804" endtime="20230914 10:43:04.079"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.803" endtime="20230914 10:43:04.079"/>
+</kw>
+<kw name="Then User should see a dropdown" library="selectors_hub_keyword">
+<kw name="Dropdwon Verify" library="selectors_hub">
+<status status="PASS" starttime="20230914 10:43:04.079" endtime="20230914 10:43:04.098"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:04.079" endtime="20230914 10:43:04.098"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:03.797" endtime="20230914 10:43:04.098"/>
+</test>
+<test id="s1-t5" name="//label[normalize-space()='Can you enter name here through automation']//*[name()='svg']">
+<status status="FAIL" starttime="20230914 10:43:04.098" endtime="20230914 10:43:04.099">Test case contains no keywords.</status>
+</test>
+<kw name="Close Browser" library="shopping_keyword" type="TEARDOWN">
+<kw name="Close Browser" library="utils">
+<status status="PASS" starttime="20230914 10:43:04.099" endtime="20230914 10:43:04.184"/>
+</kw>
+<status status="PASS" starttime="20230914 10:43:04.099" endtime="20230914 10:43:04.184"/>
+</kw>
+<status status="FAIL" starttime="20230914 10:42:55.798" endtime="20230914 10:43:04.184"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="1" skip="0" id="s1" name="Slectors Hub">Slectors Hub</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
