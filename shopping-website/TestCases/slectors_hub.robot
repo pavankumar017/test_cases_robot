@@ -29,7 +29,11 @@ User to test the select class based on input
 # #CHANGE VALUSE AND CHECK BODU CONTENTS NUMBER
 
 
-# User to test action class
+User to test action class on hovver checkout 
+    Given User should be in the home page 
+    And User hoovers on Checkouthere
+    Then User should see a dropdown
+
 
 # User to check the box with  username joe root
 

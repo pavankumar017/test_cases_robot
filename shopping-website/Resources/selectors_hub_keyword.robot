@@ -14,3 +14,9 @@ User should be able to interact
 
 User should select dropdown "${drop_down_value}"
     selectors_hub.select_a_dropdwon  ${drop_down_value}
+
+User hoovers on Checkouthere
+    selectors_hub.hoover_on_checkout
+
+User should see a dropdown
+    selectors_hub.dropdwon_verify

@@ -33,3 +33,12 @@ def select_a_dropdwon(drop_down_value):
     select = Select(util.driver.find_element_by_id("cars"))
     select.select_by_value(drop_down_value)
     
+def hoover_on_checkout():
+    act = ActionChains(util.driver)
+    element = util.driver.find_element_by_xpath("//button[contains(text(),'Checkout here')]")
+    act.move_to_element(element).perform()
+
+def dropdwon_verify():
+    is_dropdown_visible = util.driver.find_element_by_xpath(get_element("locators.selectors_hub.drop_down_visible")).is_displayed()
+
+    assert is_dropdown_visible == True

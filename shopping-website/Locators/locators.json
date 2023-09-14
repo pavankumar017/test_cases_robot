@@ -12,7 +12,8 @@
     "selectors_hub": {
       "home_page": "//a[contains(text() , 'SelectorsHub')]",
       "first_name": "//*[@placeholder='First Enter name']",
-      "edit_action": "//label[normalize-space()='Can you enter name here through automation']//*[local-name()='svg']"
+      "edit_action": "//label[normalize-space()='Can you enter name here through automation']//*[local-name()='svg']",
+      "drop_down_visible": "//a[contains(text() , 'Join Training')]"
     }
   }
 }
